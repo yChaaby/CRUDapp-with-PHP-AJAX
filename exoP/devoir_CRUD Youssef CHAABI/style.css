@@ -1,0 +1,48 @@
+
+
+#first{
+    margin-top: 18px;
+    padding: 30px 0px 10px 7px;
+    border: 2px black solid;
+    width: 49%;
+    position: relative;
+    left: 26%;
+    
+}
+#close{
+    position: absolute;
+    top: 5%;
+    left: 73%;
+}
+input{
+    
+    margin-bottom: 6px;
+    left: 10%;
+}
+h1{
+    position: absolute;
+    font-size: 14px;
+    top: 0%;
+    left: 30%;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+}
+table{
+    margin-top: 25px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 26%;
+    
+}
+thead td{
+    background-color: orange;
+    color: black;
+}
+td{
+    color: aliceblue;
+    background-color: rgb(0, 123, 255);
+}
+#theid{
+    width:15%;
+}

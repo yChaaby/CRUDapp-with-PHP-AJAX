@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="addForm">
+        <h1>Ajout d'un exercice&nbsp</h1>
+        <div id="first">
+            <form method="post" id="Add">
+                <label for="">Titre de l'exercice : &nbsp &nbsp </label><input name="Titre" type="text" id="titre"><br>
+                <label for="">Auteur de l'exercice : </label><input name="Auteur" type="text" id="auteur"><br>
+                <label for="">Date creation :</label><input name="date" type="date" id="date"><br>
+                <input type="submit" value="Ajouter" id="jeje" >
+            </form>
+        </div>
+    </div>
+    <div id="modifyForm" style="display: none;">
+        <h1>Modifier un exercice&nbsp</h1>
+        <div id="first">
+            <form method="post" id="Modify">
+                <label for="">Titre de l'exercice : &nbsp &nbsp </label><input name="Titre" type="text" id="titrem"><br>
+                <label for="">Auteur de l'exercice : </label><input name="Auteur" type="text" id="auteurm"><br>
+                <label for="">Date creation :</label><input name="date" type="date" id="datem"><br>
+                <input type="submit" value="Modifier" id="jeje" >
+            </form>
+        </div>
+        <button id="close"  >X</button>
+
+    </div>
+    <div id="divTable">
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
